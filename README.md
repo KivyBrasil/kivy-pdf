@@ -1,7 +1,7 @@
 # kivy-pdf
 
 ## O Que É
-Widget criado para usar PDF dentro do kivy, 
+Widget criado para usar PDF no kivy, 
 basicamente ele cria uma pasta com o nome do 
 arquivo pdf, por exemplo nosso arquivo é ```test.pdf```.
 ```
@@ -14,12 +14,18 @@ BoxLayout:
         source: 'test.pdf'
 ```
 
-## Como Instalar
+## Requisitos
 ```
-pypdf2 == 1.26.0
-pymupdf == 1.17.2
-python == 3.7
-kivy == 1.11.1
+Python >= 3.7
+Kivy   >= 1.11.1
+```
+
+## Dependências
+```
+python -m pip install --upgrade pip
+python -m pip install --upgrade wheel
+python -m pip install --upgrade pypdf2
+python -m pip install --upgrade pymupdf
 ```
 
 ## Para testar
